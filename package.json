@@ -1,6 +1,6 @@
 {
   "name": "webhook-telegram-notifier-bot",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "## Что это?",
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register src/index.ts",
