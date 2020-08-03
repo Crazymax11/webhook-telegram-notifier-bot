@@ -83,6 +83,9 @@ server.post('/', (request, reply) => {
     reply.send(`чата ${chatname} не существует`);
   }
 
+  reply.code(200);
+  reply.send('ok');
+
   bot.telegram.sendMessage(chatInfo.chatId, message);
 });
 
